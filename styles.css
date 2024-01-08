@@ -18,10 +18,10 @@ body {
     padding-top: 60px; /* Adjust based on the logo's height */
 }
 
-.logo {
+logo {
     position: absolute;
-    top: 10px;
-    left: 10px;
+    top: 10px;       /* Adjust to position the logo close to the top edge */
+    left: 10px;      /* Adjust to position the logo close to the left edge */
     max-width: 80px; /* Adjust as needed */
     height: auto;
 }
