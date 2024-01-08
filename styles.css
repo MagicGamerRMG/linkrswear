@@ -19,12 +19,14 @@ body {
 }
 
 .logo {
-    position: absolute;
-    top: 10px;    /* Adjust as needed */
-    left: 10px;   /* Adjust as needed */
-    width: 80px;  /* Adjust as needed */
-    height: auto; /* Maintains aspect ratio */
+    position: fixed; /* This ensures the logo stays in the viewport regardless of scrolling */
+    top: 10px;       /* Adjust to position the logo close to the top edge */
+    left: 10px;      /* Adjust to position the logo close to the left edge */
+    width: 80px;     /* Adjust as needed */
+    height: auto;    /* Maintains aspect ratio */
+    z-index: 1000;   /* Ensures the logo stays above other content */
 }
+
 
 
 .countdown {
