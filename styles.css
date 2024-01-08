@@ -1,0 +1,37 @@
+body {
+    font-family: 'Lemon', sans-serif;
+    background-image: url('path_to_background_image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    padding-top: 60px; /* Adjust based on the logo's height */
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    max-width: 80px; /* Adjust as needed */
+    height: auto;
+}
+
+.countdown {
+    font-size: 3em; /* Adjust as needed */
+    margin-bottom: 20px;
+}
+
+.event-description {
+    font-size: 2em; /* Adjust as needed */
+    margin-top: 20px;
+}
