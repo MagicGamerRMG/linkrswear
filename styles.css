@@ -27,14 +27,7 @@ body {
     z-index: 1000;   
 }
 
-
-
-.countdown {
-    font-size: 3em; 
-    margin-bottom: 20px;
-}
-
 .event-description {
-    font-size: 2em;
+    font-size: 3em; /* Adjusted font size */
     margin-top: 20px;
 }
